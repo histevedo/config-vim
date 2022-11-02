@@ -1,0 +1,13 @@
+
+" Theme 
+syntax on
+colorscheme atom 
+" transparancy 
+hi Comment  guifg=#2980b9 ctermfg=darkred
+
+hi Comment cterm=italic
+
+hi Normal guibg=NONE ctermbg=NONE
+hi LineNr guibg=NONE ctermbg=NONE
+hi SignColumn guibg=NONE ctermbg=NONE
+hi EndOfBuffer guibg=NONE ctermbg=NONE

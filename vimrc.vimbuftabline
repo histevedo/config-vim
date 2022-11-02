@@ -1,0 +1,9 @@
+let g:buftabline_numbers    = get(g:, 'buftabline_numbers',    2)
+let g:buftabline_indicators = get(g:, 'buftabline_indicators', 1)
+let g:buftabline_separators = get(g:, 'buftabline_separators', 0)
+let g:buftabline_show       = get(g:, 'buftabline_show',       2)
+let g:buftabline_plug_max   = get(g:, 'buftabline_plug_max',  10)
+
+:hi TabLineFill ctermfg=Lightblue ctermbg=DarkGreen
+:hi TabLine ctermfg=Blue 
+:hi TabLineSel ctermfg=Red 
