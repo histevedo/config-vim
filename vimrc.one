@@ -1,0 +1,9 @@
+set background=dark " for the dark version
+let g:one_allow_italics = 1 " I love italic for comments
+syntax on
+colorscheme one
+
+hi Normal guibg=NONE ctermbg=NONE
+hi LineNr guibg=NONE ctermbg=NONE
+hi SignColumn guibg=NONE ctermbg=NONE
+hi EndOfBuffer guibg=NONE ctermbg=NONE

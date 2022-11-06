@@ -22,9 +22,10 @@ if &compatible
   "call dein#add('Shougo/neosnippet-snippets')
   call dein#add('Yggdroot/LeaderF', { 'do': ':LeaderfInstallCExtension' }) 
   call dein#add('ap/vim-buftabline') 
-  call dein#add('tpope/vim-surround') 
+  call dein#add('tpope/vim-surround')
+ "call dein#add('vim-scripts/taglist')
 
-  " Required:
+ " Required:
   call dein#end()
 
   " Required:

@@ -24,7 +24,7 @@ hi User3 guifg=#ff66ff guibg=#222222
 hi User4 guifg=#a0ee40 guibg=#222222
 hi User5 guifg=#eeee40 guibg=#222222
 set backspace=indent,eol,start
-
+set tags=./tags,./TAGS,tags;~,TAGS;~
 " save 
 noremap <silent> <C-S>          :update<CR>
 vnoremap <silent> <C-S>         <C-C>:update<CR>
